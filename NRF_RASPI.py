@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 import spidev
-from lib_nrf24 import NRF24
+import NRF24
 
 #Begin the radio using GPIO08 as CE and GPIO25 as CSN pins.
 GPIO.setmode(GPIO.BCM)
